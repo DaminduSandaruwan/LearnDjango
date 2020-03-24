@@ -3,3 +3,4 @@ start server ---> python manage.py runserver
 start app ---> python manage.py startapp calc
 
 DTA- Django Template Language
+want Jinja Extention
