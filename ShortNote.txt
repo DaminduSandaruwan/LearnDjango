@@ -1,0 +1,3 @@
+Start ene ---> workon LearnDjango
+start server ---> python manage.py runserver
+start app ---> python manage.py startapp calc
