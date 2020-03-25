@@ -9,3 +9,5 @@ post - adding data to server
 get - is fetching data(data is in address bar)
 
 MVT/MTV - Model View Template/Model Template View
+
+python manage.py collectstatic
