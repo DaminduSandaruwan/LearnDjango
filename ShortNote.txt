@@ -11,3 +11,18 @@ get - is fetching data(data is in address bar)
 MVT/MTV - Model View Template/Model Template View
 
 python manage.py collectstatic
+
+ORM- object Relational Mapper
+
+postgreSql
+pgAdmin
+
+connector - postgresql and python --- > pip install psycopg2  
+
+migration --> python manage.py
+
+pip install Pillow
+
+python manage.py sqlmigrate travello 001
+
+migration - python manage.py migrate
