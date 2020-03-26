@@ -6,7 +6,11 @@ from .models import Destination
 
 def index(request):
 
-    dest1 = Destination()
+    dests = Destination.objects.all()
+
+
+    # Deleted Static content and connect to db
+    """dest1 = Destination()
     dest1.name='Mumbai'
     dest1.desc= 'THe City that never Sleep'
     dest1.img = 'destination_1.jpg'
@@ -27,7 +31,7 @@ def index(request):
     dest3.price = 800
     dest3.offer=False
 
-    dests=[dest1,dest2,dest3]
+    dests=[dest1,dest2,dest3]"""
 
     return render(request,'index.html',{'dests':dests})
     #return render(request,'index.html',{'dest1':dest1,'dest2':dest2,'dest3':dest3})
