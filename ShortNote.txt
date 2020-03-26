@@ -26,3 +26,5 @@ pip install Pillow
 python manage.py sqlmigrate travello 001
 
 migration - python manage.py migrate
+
+created super user--> python manage.py createsuperuser
